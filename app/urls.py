@@ -23,7 +23,7 @@ from uploader.router import router as uploader_router
 from core.views import UserViewSet, CategoriaViewSet, EditoraViewSet, AutorViewSet, LivroViewSet
 
 router = DefaultRouter()
-router.register(r"users", UserViewSet, basename="users")
+router.register(r"usuarios", UserViewSet, basename="usuarios")
 router.register(r"categorias", CategoriaViewSet)
 router.register(r"editoras", EditoraViewSet)
 router.register(r"autores", AutorViewSet)
